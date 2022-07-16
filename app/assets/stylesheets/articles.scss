@@ -1,0 +1,50 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+  margin-top: 0;
+}
+
+.navbar {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+  padding: 15px 0;
+}
+
+.logo {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333333;
+  text-decoration: none;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 6px;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  li {
+    margin-bottom: 12px;
+    a {
+    text-decoration: none;
+    color: #337ab7;
+    font-size: 20px;
+    font-family: sans-serif;
+      &:hover {
+        color: #23527c;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}

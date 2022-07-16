@@ -1,0 +1,8 @@
+<div class="navbar"><%= link_to "Wikinimous", articles_path, class:"logo" %></div>
+
+<div class="container col-sm-8 col-sm-offset-2">
+<h2><%= @article.title %></h2>
+<p><%= @article.content %></p>
+<%= link_to "Edit article", edit_article_path %>
+<%= link_to "Delete article", article_path(@article), method: :delete, data: { confirm: "Delete #{@article.title} ?" } %>
+</div>
